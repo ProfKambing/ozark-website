@@ -1,6 +1,2 @@
-# gamesense.pub-website
-gamesense.pub website,
-it was not made by me!
+# ozark website used to flex on kids
 
-
-[![](https://i.imgur.com/BHFNF3X.png)](https://i.imgur.com/BHFNF3X.png)
