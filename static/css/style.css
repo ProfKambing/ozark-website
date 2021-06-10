@@ -47,12 +47,12 @@
 	font-size: 62pt;
 	font-weight: normal;
 	color: #eee;
-	height: 120px;
+	height: 20px;
 }
 
 #title h2 {
 	margin-top: -38px;
-	margin-left: 400px;
+	margin-left: 300px;
 	padding: 0;
 	text-align: center;
 	font-size: 9pt;
@@ -79,12 +79,12 @@
 #description {
 	margin-top: 25px;
 	color: #999;
-	padding-top: 30px;
+	padding-top: 10px;
 	width: 360px;
 }
 
 #jumbo-container {
-	margin-top: 20px;
+	margin-top: 10px;
 	text-align: center;
 }
 
@@ -170,7 +170,7 @@
 	}
 .gs-navbar {
 	position: relative;
-	min-height: 50px;
+	min-height: 20px;
 	border-radius: 4px;
 	background-image: -webkit-linear-gradient(top, #303030 0%, #151515 100%);
 	background-image: -o-linear-gradient(top, #303030 0%, #151515 100%);
@@ -194,7 +194,7 @@
 	margin-bottom: -1px;
 	position: relative;
 	display: block;
-	height: 60px;
+	height: 40px;
 	border-left: 1px solid #333;
 	border-right: 1px solid #161616;
 	}
@@ -213,7 +213,7 @@
 	transition: color 0.5s ease;
 	position: relative;
 	display: block;
-	font-family: Impact, sans-serif;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif, sans-serif;
 	font-size: 18pt;
 	padding-top: 20px;
 	padding-bottom: 15px;
@@ -222,7 +222,7 @@
 	line-height: 23px;
 	}
 .gs-navbar li a:hover {
-	color: #fff;
+	color: rgb(255, 255, 255);
 	text-decoration: none;
 	}
 	.gs-animated {
