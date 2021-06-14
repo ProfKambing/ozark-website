@@ -129,6 +129,20 @@
     background: #222;
     border-radius: var(--border-width)
 }
+.rainbow-animation::before {
+  box-sizing: border-box;
+  content: '';
+  position: absolute;
+  z-index: -2;
+  left: calc(var(--max-size) * -0.5 + 50%);
+  top: calc(var(--max-size) * -0.5 + 50%);
+  width: var(--max-size);
+  height: var(--max-size);
+  background-repeat: no-repeat;
+  background-position: 0 0, 100% 0, 100% 100%, 0 100%;
+  background-image: conic-gradient(#a65ff2, #f25f61, #f2cb5f, #5ff281, #5ff2f0, #a65ff2);
+  animation: rotate 10s linear infinite
+}
 
 .rainbow-gradient::after {
     position: absolute;
