@@ -1,0 +1,154 @@
+@font-face {
+    font-family: Minecraft-bold;
+    src: url(./fonts/MinecraftBold-nMK1.otf);
+}
+@font-face {
+    font-family: Minecraft-reg;
+    src: url(./fonts/MinecraftRegular-Bmg3.otf);
+}
+@font-face {
+    font-family: consolas;
+    src: url(./fonts/Consolas.TTF);
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Minecraft-reg;
+}
+body{
+    background-image: url("../images/bg.png");
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+}
+html {
+    min-height: 100%;
+}
+.navbar-brand{
+    margin-left: 10px;
+    padding: 0;
+}
+.nav-link{
+    font-family: Minecraft-reg;
+    color: #ff1313
+}
+.nav-link:hover{
+    font-family: Minecraft-reg;
+    color: #e01111
+}
+.navbar{
+    border-bottom: #ff1313 solid 5px;
+}
+footer{
+    font-family: Minecraft-reg;
+}
+.container{
+     height: 1000px;
+     margin-left: 5px;
+     margin-top: 30px;
+}
+.p-1{
+     font-family: Minecraft-reg;
+     width: 60%;
+     border-radius: 5px;
+     transition: 0.4s;
+}
+.p-1:hover{
+     background-color: rgb(228, 228, 228);
+     transition: 0.4s;
+}
+hr{
+    width: 15cm;
+}
+.navbar-toggle {
+    float: left !important;
+    margin-left: 15px;
+}
+
+.navbar-header.navbar-right.pull-right {
+    margin-right: 15px;
+}
+
+.navbar-right > li {
+    float: left;
+}
+
+.nav-item {
+    color: #ff1313;
+}
+
+.nav-item:hover {
+    color: #e01111;
+}
+
+.me-2{
+    font-family: Minecraft-reg;
+}
+.btn{
+    font-family: Minecraft-reg;
+}
+h1{
+    font-family: Minecraft-bold;
+}
+.qb-self {
+    color: white;
+    background-color: #ff1313;
+}
+.qb{
+    width: 3.5cm !important;
+    height: 3.5cm;
+    border: white solid 3px;
+    border-radius: 100%;
+}
+.abt{
+    margin:10px;
+    margin-top: 0.8cm;
+    font-family: Minecraft-reg;
+    padding: 10px;
+    color:#212529;
+    background-color: white;
+    border-radius: 6px;
+}
+.donate {
+    margin-left: -10px;
+    text-decoration: none;
+    color: white;
+    background-color: #ff1313;
+    transition: 0.6s;
+}
+.donate:hover {
+    transition: 0.6s;
+    background-color: #e01111;
+    color: white;
+}
+.prof{
+    width: 132px;
+    height: 132px;
+}
+.h11{
+    width:auto;
+}
+.console-f {
+    padding: 0px 2px;
+    font-family: consolas;
+    background-color: rgb(196, 196, 196);
+}
+.rainbow {
+    background: linear-gradient(135deg, #5a6afa 0%, #ad5afa 40%, #F23E2A 100%);
+    background-clip: unset;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.q{
+    font-family: Minecraft-bold;
+}
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+  
+  
