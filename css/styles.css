@@ -169,3 +169,29 @@ hr.qhr {
     ::-webkit-scrollbar-thumb:hover{
         background: #4e4e4e;
     }
+
+/* mobile */
+@media only screen and (max-width: 768px) {
+    iframe {
+        height: 200px;
+        width: 400px;
+    }
+    .contr img {
+        height: 15vh;
+    }
+    .contr p {
+        font-size: 11px;
+    }
+  }
+@media only screen and (max-width: 425px) {
+    iframe {
+        height: 150px;
+        width: 300px;
+    }
+    .contr img {
+        height: 11vh;
+    }
+    .contr p {
+        font-size: 5px;
+    }
+  }
