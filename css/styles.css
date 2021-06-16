@@ -37,13 +37,24 @@ html {
     font-family: Minecraft-reg;
     color: #ff1313
 }
+
 .nav-link:hover{
     font-family: Minecraft-reg;
     color: #e01111
 }
+
 .navbar{
-    border-bottom: #ff1313 solid 5px;
+    border-bottom: 0px solid transparent;
+    background-color: #212529;
+    transition: 0.5s;
 }
+
+.sticky-top {
+    background-color: #1b1f22;
+    border-bottom: 5px solid #ff1313;
+    transition: 0.5s;
+}
+
 footer{
     font-family: Minecraft-reg;
 }
@@ -63,7 +74,7 @@ footer{
      transition: 0.4s;
 }
 hr{
-    width: 15cm;
+    width: 100%; 
 }
 .navbar-toggle {
     float: left !important;
@@ -99,33 +110,7 @@ h1{
     color: white;
     background-color: #ff1313;
 }
-.qb{
-    width: 3.5cm !important;
-    height: 3.5cm;
-    border: white solid 3px;
-    border-radius: 100%;
-}
-.abt{
-    margin:10px;
-    margin-top: 0.8cm;
-    font-family: Minecraft-reg;
-    padding: 10px;
-    color:#212529;
-    background-color: white;
-    border-radius: 6px;
-}
-.donate {
-    margin-left: -10px;
-    text-decoration: none;
-    color: white;
-    background-color: #ff1313;
-    transition: 0.6s;
-}
-.donate:hover {
-    transition: 0.6s;
-    background-color: #e01111;
-    color: white;
-}
+
 .prof{
     width: 132px;
     height: 132px;
@@ -146,9 +131,41 @@ h1{
 }
 .q{
     font-family: Minecraft-bold;
+    text-align: center;
+}
+.q iframe {
+    border: 3px solid transparent;
+    border-image: linear-gradient(to bottom right, #b827fc 0%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%);
+    border-image-slice: 1;
 }
 .navbar-toggler-icon {
     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 0.55%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
 }
+
+hr.qhr {
+    border-top: 2px solid rgb(38, 42, 48);
+    opacity: 100%;
+}
+
+/* snow */
+.snowflake {
+    color: #fff;
+    font-size: 0.7em;
+    opacity: 30%;
+    font-family: Arial;
+    text-shadow: 0 0 1px #000;
+  }
   
-  
+  @-webkit-keyframes snowflakes-fall{0%{top:-10%}100%{top:100%}}@-webkit-keyframes snowflakes-shake{0%{-webkit-transform:translateX(0px);transform:translateX(0px)}50%{-webkit-transform:translateX(80px);transform:translateX(80px)}100%{-webkit-transform:translateX(0px);transform:translateX(0px)}}@keyframes snowflakes-fall{0%{top:-10%}100%{top:100%}}@keyframes snowflakes-shake{0%{transform:translateX(0px)}50%{transform:translateX(80px)}100%{transform:translateX(0px)}}.snowflake{position:fixed;top:-10%;z-index:9999;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;cursor:default;-webkit-animation-name:snowflakes-fall,snowflakes-shake;-webkit-animation-duration:10s,3s;-webkit-animation-timing-function:linear,ease-in-out;-webkit-animation-iteration-count:infinite,infinite;-webkit-animation-play-state:running,running;animation-name:snowflakes-fall,snowflakes-shake;animation-duration:10s,3s;animation-timing-function:linear,ease-in-out;animation-iteration-count:infinite,infinite;animation-play-state:running,running}.snowflake:nth-of-type(0){left:1%;-webkit-animation-delay:0s,0s;animation-delay:0s,0s}.snowflake:nth-of-type(1){left:10%;-webkit-animation-delay:1s,1s;animation-delay:1s,1s}.snowflake:nth-of-type(2){left:20%;-webkit-animation-delay:6s,.5s;animation-delay:6s,.5s}.snowflake:nth-of-type(3){left:30%;-webkit-animation-delay:4s,2s;animation-delay:4s,2s}.snowflake:nth-of-type(4){left:40%;-webkit-animation-delay:2s,2s;animation-delay:2s,2s}.snowflake:nth-of-type(5){left:50%;-webkit-animation-delay:8s,3s;animation-delay:8s,3s}.snowflake:nth-of-type(6){left:60%;-webkit-animation-delay:6s,2s;animation-delay:6s,2s}.snowflake:nth-of-type(7){left:70%;-webkit-animation-delay:2.5s,1s;animation-delay:2.5s,1s}.snowflake:nth-of-type(8){left:80%;-webkit-animation-delay:1s,0s;animation-delay:1s,0s}.snowflake:nth-of-type(9){left:90%;-webkit-animation-delay:3s,1.5s;animation-delay:3s,1.5s}
+/* j */
+    /*SCROLLBAR*/
+    ::-webkit-scrollbar{
+        width: 8px;
+        background: rgb(48, 48, 48);
+    }
+    ::-webkit-scrollbar-thumb{
+        background: #414040;
+    }
+    ::-webkit-scrollbar-thumb:hover{
+        background: #4e4e4e;
+    }
