@@ -179,7 +179,7 @@ hr.qhr {
     .contr img {
         height: 15vh;
     }
-    .contr p {
+    .contr tr {
         font-size: 11px;
     }
   }
@@ -191,7 +191,7 @@ hr.qhr {
     .contr img {
         height: 11vh;
     }
-    .contr p {
+    .contr tr {
         font-size: 5px;
     }
   }
