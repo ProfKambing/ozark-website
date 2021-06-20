@@ -1,0 +1,12 @@
+.fourofour {
+    text-align: center;
+}
+
+.linkhome {
+    color: #ff1313;
+    transition: 0.4s;
+}
+
+.linkhome:hover {
+    color: #ff4444;
+}
